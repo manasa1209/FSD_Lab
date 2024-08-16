@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lasya - Online Bharathanatyam Classes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Lasya</h1>
+            <p>Embrace the Grace of Bharathanatyam</p>
+        </div>
+        <div class="header-images">
+            <img src="image11.jpg" alt="Bharathanatyam Pose 1">
+            <img src="image22.jpg" alt="Bharathanatyam Pose 2">
+            <img src="image33.jpg" alt="Bharathanatyam Pose 3">
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#classes">Classes</a></li>
+            <li><a href="#instructors">Instructors</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <!-- New Main Menu Items -->
+            <li style="background: #66004d"><a href="#">Courses</a>
+                <ul class="sub-menu">
+                    <li><a href="#beginner">Beginner Level</a></li>
+                    <li><a href="#intermediate">Intermediate Level</a></li>
+                    <li><a href="#advanced">Advanced Level</a></li>
+                </ul>
+            </li>
+            <li style="background: #66004d"><a href="#">Resources</a>
+                <ul class="sub-menu">
+                    <li><a href="https://www.youtube.com/watch?v=Y_vUCoufnws&list=RDQMGpj_yz-fa0Q&start_radio=1">Tutorial Videos</a></li>
+                    <li><a href="https://www.thehindu.com/entertainment/dance/bharatanatyam-bani/article66342391.ece">Articles</a></li>
+                    <li><a href="https://www.vedamsbooks.com/bharatanatyam.htm">Recommended Books</a></li>
+                </ul>
+            </li>
+            <li style="background: #66004d"><a href="#">Community</a>
+                <ul class="sub-menu">
+                    <li><a href="https://in.bookmyshow.com/explore/performances-dance-bengaluru">Events</a></li>
+                    <li><a href="https://worldforumforartandculture.com/pages/bharatnatyam-for-beginners/">Forums</a></li>
+                    <li><a href="https://digitalcommons.lmu.edu/cgi/viewcontent.cgi?article=1025&context=dance_students">Newsletters</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <div class="container">
+            <h2><b>About Lasya</b></h2>
+            <p>Lasya offers comprehensive online Bharathanatyam classes, blending traditional teaching methods with modern technology. Our mission is to spread the joy of Bharathanatyam to every corner of the world.</p>
+        </div>
+    </section>
+
+    <section id="classes">
+        <div class="container">
+            <h2>Our Classes</h2>
+            <div class="class" id="beginner">
+                <h3>Beginner Level</h3>
+                <p>Start your journey with the basics of Bharathanatyam, learning the fundamental postures, steps, and rhythms.</p>
+            </div>
+            <div class="class" id="intermediate">
+                <h3>Intermediate Level</h3>
+                <p>Enhance your skills with intermediate techniques, exploring more complex rhythms and expressions.</p>
+            </div>
+            <div class="class" id="advanced">
+                <h3>Advanced Level</h3>
+                <p>Master the art with advanced choreography, focusing on intricate movements and storytelling through dance.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="instructors">
+        <div class="container">
+            <h2>Meet Our Instructors</h2>
+            <div class="instructor">
+                <img src="instructor.jpg" alt="Instructor 1">
+                <h3>Guru Smt. Anjali</h3>
+                <p>A renowned Bharathanatyam artist with over 25 years of experience, dedicated to nurturing the next generation of dancers.</p>
+            </div>
+            <div class="instructor">
+                <img src="instructor.jpg" alt="Instructor 2">
+                <h3>Guru Shri. Ramesh</h3>
+                <p>An expert in Bharathanatyam with a deep understanding of its cultural roots, bringing a unique blend of tradition and innovation to the classroom.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="testimonial">
+                <p>"Lasya has transformed my understanding of Bharathanatyam. The instructors are patient, knowledgeable, and inspiring."</p>
+                <h4>- Student Name</h4>
+            </div>
+            <div class="testimonial">
+                <p>"The online classes are well-structured and easy to follow, even for a beginner like me. I highly recommend Lasya."</p>
+                <h4>- Student Name</h4>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Ready to start your Bharathanatyam journey? Contact us to enroll in our classes or to ask any questions you may have.</p>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Lasya. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
